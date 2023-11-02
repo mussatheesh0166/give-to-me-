@@ -1,0 +1,99 @@
+/* Set styles for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the h1 heading for "Create customer" */
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Style the form container */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Style form labels */
+.form-container label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Style form input elements */
+.form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the form action buttons */
+.form-action-buttons {
+    margin-top: 20px;
+}
+
+.form-action-buttons input[type="submit"] {
+    background-color: #06f54d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-action-buttons button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the table for "customer list" */
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style table headers and rows */
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style even rows with a background color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style anchor (link) elements */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style anchor buttons */
+a button {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

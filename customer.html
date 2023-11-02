@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="customer.css" rel="stylesheet">
+    <title>Enter details</title>
+</head>
+<body>
+    <h1> Create customer </h1><br>
+    
+        <div class="class">
+        <div>
+            <form onsubmit="event.preventDefault(); onformsubmit();" autocomplete="off">
+                <div>
+                    <label>full name</label>
+                    <input type="text" name="full name" id="fullname">
+                </div>
+                <div>
+                    <label>prodet</label>
+                    <input type="text" name="prodet" id="prodet">
+                </div>
+                <div>
+                    <label>bill no</label>
+                    <input type="text" name="billno" id="billno">
+                </div>
+                <div>
+                    <label>city</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div>
+                    <label > number</label>
+                    <input type="text" name="number" id="number">
+                </div>
+                <div class="form-action-buttons">
+                    <input type="submit" id="btn1" value="submit"><br><br>
+                    <a href="page2.html"> <button type="button" id="btn2">back </button></a><br>
+                </div>
+            </form>
+         </div>
+        </div>
+        <br>
+        <h1> customer list </h1><br>
+        <table>
+        <div>
+            <table  id="customer" >
+                <thead>
+                    <tr> 
+                    
+                        <th>full name</th>
+                        <th>prodet</th>
+                        <th>bill no</th>
+                        <th>city</th>
+                       <th>number</th>
+                    
+                    </tr>
+                </thead>
+          <tbody>
+          
+          </tbody>
+              </table>
+        </div>
+    <script type="text/javascript" src="./customer.js"></script>
+  </table>
+</body>
+</html>

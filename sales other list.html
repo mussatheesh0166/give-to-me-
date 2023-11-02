@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sales other list.css" rel="stylesheet">
+    <title>Enter details</title>
+</head>
+<body>
+    <h1>Only enter the sales other list details</h1><br>
+    <div class="class">
+        <div>
+            <form onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off">
+                <div>
+                    <label>Brand Name</label>
+                    <input type="text" name="brandName" id="brandName">
+                </div>
+                <div>
+                    <label>Model</label>
+                    <input type="text" name="model" id="model">
+                </div>
+                <div>
+                    <label>Price</label>
+                    <input type="text" name="price" id="price">
+                </div>
+                <div>
+                    <label>Quantity</label>
+                    <input type="text" name="quantity" id="quantity">
+                </div>
+                <div>
+                    <label>Total Amount</label>
+                    <input type="text" name="totalAmount" id="totalAmount">
+                </div>
+                <div class="form-action-buttons">
+                    <input type="submit" id="btn1" value="Submit"><br><br>
+                    <a href="stock list.html"> <button type="button" id="btn2">Back</button></a><br>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br>
+    <h1>Sales the other list</h1><br>
+    <table>
+        <div>
+            <table id="salesOtherList">
+                <thead>
+                    <tr>
+                        <th>Brand Name</th>
+                        <th>Model</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table data will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </table>
+    <script type="text/javascript" src="./sales other list.js"></script>
+</body>
+</html>

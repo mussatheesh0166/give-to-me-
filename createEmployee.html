@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="createEmployee.css" rel="stylesheet">
+    <title>Enter Details</title>
+</head>
+<body>
+    <h1>Create Employee</h1>
+    
+    <div class="form-container">
+        <form onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off">
+            <div>
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fullname" id="fullname">
+            </div>
+            <div>
+                <label for="empcode">Emp Code</label>
+                <input type="text" name="empcode" id="empcode">
+            </div>
+            <div>
+                <label for="salary">Salary</label>
+                <input type="text" name="salary" id="salary">
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city">
+            </div>
+            <div>
+                <label for="number">Number</label>
+                <input type="text" name="number" id="number">
+            </div>
+            <div class="form-action-buttons">
+                <input type="submit" id="btn1" value="Submit">
+                <a href="page2.html"><button type="button" id="btn2">Back</button></a>
+            </div>
+        </form>
+    </div>
+    
+    <h1>List Employee</h1>
+    <table>
+        <div>
+            <table id="employeelist">
+                <thead>
+                    <tr>
+                        <th>Full Name</th>
+                        <th>Emp Code</th>
+                        <th>Salary</th>
+                        <th>City</th>
+                        <th>Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Employee data will be displayed here -->
+                </tbody>
+            </table>
+        </div>
+    </table>
+    
+    <script type="text/javascript" src="./createEmployee.js"></script>
+</body>
+</html>

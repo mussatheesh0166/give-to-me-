@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./newSupplier.css" rel="stylesheet">
+    <link href="./newSupplier.css" rel="stylesheet">
+
+    <title>Enter Supplier Details</title>
+</head>
+<body>
+    <h1>Supplier Details</h1>
+    <div class="form-container">
+        <div>
+            <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                <div>
+                    <label for="supplierName">Supplier Name</label>
+                    <input type="text" id="supplierName" placeholder="Supplier Name">
+                </div>
+                <div>
+                    <label for="supplierCode">Supplier Code</label>
+                    <input type="text" id="supplierCode" placeholder="Supplier Code">
+                </div>
+                <div>
+                    <label for="supplierMailId">Supplier Mail Id</label>
+                    <input type="text" id="supplierMailId" placeholder="Supplier Mail Id">
+                </div>
+                <div>
+                    <label for="supplierAddress">Supplier Address</label>
+                    <input type="text" id="supplierAddress" placeholder="Supplier Address">
+                </div>
+                <div>
+                    <label for="supplierNumber">Supplier Number</label>
+                    <input type="text" id="supplierNumber" placeholder="Supplier Number">
+                </div>
+                <div class="form-action-buttons">
+                    <input type="submit" id="btn1" value="Submit"><br><br>
+                    <a href="page2.html"><button type="button" id="btn2">Back</button></a><br>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <h1>Supplier Details list</h1>
+    <table>
+        <div>
+            <table id="SupplierDetails">
+                <thead>
+                    <tr>
+                        <th>Supplier Name</th>
+                        <th>Supplier Code</th>
+                        <th>Supplier Mail Id</th>
+                        <th>Supplier Address</th>
+                        <th>Supplier Number</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- You can add table rows and data cells here dynamically using JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </table>
+
+    <script type="text/javascript" src="./newSupplier.js"></script>
+</body>
+</html>
